@@ -1,0 +1,21 @@
+POST https://generativelanguage.googleapis.com
+    /v1beta
+    /models
+    /gemini-1.5-flash:generateContent
+    ?key=AIzaSyDZU5jlBmf5Pz5ItXd2Z1hg4im6jbIsUIo
+Content-Type: application/json
+
+{
+  "contents": [
+    {
+      "parts": [
+        {
+          "text": "오늘 점심메뉴 추천해줘"
+        }
+      ]
+    }
+  ]
+}
+
+###
+
